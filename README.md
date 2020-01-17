@@ -31,7 +31,10 @@ We can make the function execute by saying this:
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-fix-the-scope-lab'>Fix The Scope Lab</a> on Learn.co and start learning to code for free.</p>
 
-var aniaml=dog
+function myAnimal(){
+  var animal='dog'
+  return animal
+}
 function yourAnimal(){
   var animal = 'cat'
   return animal
