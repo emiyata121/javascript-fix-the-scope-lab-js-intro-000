@@ -34,7 +34,7 @@ We can make the function execute by saying this:
 var animal='dog'
 
 function myAnimal(){
-  return animal;
+  return animal
 }
 
 function yourAnimal(){
@@ -42,14 +42,14 @@ function yourAnimal(){
   return animal;
 }
 
+var two=2
 function add2(n){
-  const two = 2;
-  return n + two;
+  return (n + two)
 }
 
 var funkyFunction=function(){
   return function(){
-    return "FUNKY!";
+    return "FUNKY!"
   }
 }
 
