@@ -31,16 +31,16 @@ We can make the function execute by saying this:
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-fix-the-scope-lab'>Fix The Scope Lab</a> on Learn.co and start learning to code for free.</p>
 
+var animal='dog'
+
+function myAnimal(){
+  return animal
+}
 function myAnimal(){
   var animal='dog'
   return animal
 }
-describe('yourAnimal()', function(){
-  it('returns your animal', function(){
-    expect(window.yourAnimal()).toEqual('cat')
-    })
-  })
 function yourAnimal(){
-  var animal = 'cat'
+  var animal='cat'
   return animal
 }
