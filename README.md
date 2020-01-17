@@ -34,11 +34,11 @@ We can make the function execute by saying this:
 var animal='dog'
 
 function myAnimal(){
-  return animal
+  return animal;
 }
 
 function yourAnimal(){
-  var animal='cat'
+  var animal='cat';
   return animal
 }
 
