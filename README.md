@@ -38,19 +38,19 @@ function myAnimal(){
 }
 
 function yourAnimal(){
-  var animal='cat';
-  return animal;
+  var animal='cat'
+  return animal
 }
 
 var two=2
 function add2(n){
-  return (n + two)
+  return (n+two)
 }
 
-var funkyFunction=function(){
+var funkyFunction(){
   return function(){
     return "FUNKY!"
   }
 }
 
-var theFunk=funkyFunction()();
+var theFunk=funkyFunction()()
