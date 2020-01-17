@@ -33,6 +33,6 @@ We can make the function execute by saying this:
 
 var aniaml=dog
 function yourAnimal(){
+  var animal = 'cat'
   return animal
-  var animal=cat
 }
